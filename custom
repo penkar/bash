@@ -1,20 +1,23 @@
+echo
 echo -ne "It's "; date '+%A, %B %-d %Y'
+echo
 echo -e "Today's Fortune,"; fortune
+echo
 cal
-echo ""
 
-
-echo $DIR
-source ~/bash/.shells/defaults
-source ~/bash/.shells/functions
+source ~/bash/.shells/.defaults
+source ~/bash/.shells/.functions
 # source ~/bash/.shells/exports
-source ~/bash/.shells/alias
+source ~/bash/.shells/.alias
 # source ~/bash/.shells/prompt
 
 
 # CL Commands to keep in min.
-# google-chrome 'http://jspenkar.com' # Opens Chrome
-# firefox 'http://jspenkar.com' # Opens home page in Firefox
-# keepassx # keepassx is opened
-# clementine # Opens Clementine music player
-# zeal # Opens Zeal documentation program
+# google-chrome 'http://jspenkar.com'   # Opens Chrome
+# firefox 'http://jspenkar.com'         # Opens home page in Firefox
+# keepassx                              # keepassx is opened
+# clementine                            # Opens Clementine music player
+# zeal                                  # Opens Zeal documentation program
+# vlc                                   # Opens VLC player
+# steam                                 # Opens Steam
+# blender                               # Opens Blender

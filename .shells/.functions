@@ -1,0 +1,14 @@
+# Navigate to type 1 Partition.
+function type1 {
+  cd ~/
+  cd /media/jsp/type1
+}
+
+# Function will create a directory, then navigate you into said directory.
+mcd () {
+    mkdir -p $1
+    cd $1
+}
+
+# Navigate into a directory then list all files within.
+cls() { cd "$1"; ls;}

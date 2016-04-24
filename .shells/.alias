@@ -9,6 +9,9 @@ alias l='ls -CF'
 
 # Commands
 alias c='clear'
+alias myip="curl http://ipecho.net/plain; echo"
+# Create a random string for a password
+alias genpasswd="strings /dev/urandom | grep -o '[[:alnum:]]' | head -n 30 | tr -d '\n'; echo"
 
 # Navigation
 alias ..='cd ..'
