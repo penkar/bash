@@ -1,0 +1,8 @@
+# Locations
+alias port="cd ~/code/portfolio/"
+alias code="cd ~/code/"
+
+# some more ls aliases
+alias ll='ls -lsa'
+alias la='ls -AF'
+alias l='ls -CF'
