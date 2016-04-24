@@ -20,3 +20,4 @@ alias ....='cd ../../..'
 
 #Git Shortcuts
 alias gis="git status"
+alias gpo="git push origin $1"
