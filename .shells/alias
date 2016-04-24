@@ -2,7 +2,15 @@
 alias port="cd ~/code/portfolio/"
 alias code="cd ~/code/"
 
-# some more ls aliases
+# LS Aliases
 alias ll='ls -lsa'
 alias la='ls -AF'
 alias l='ls -CF'
+
+# Commands
+alias c='clear'
+
+# Navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'

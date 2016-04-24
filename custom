@@ -1,0 +1,12 @@
+echo -ne "It's "; date '+%A, %B %-d %Y'
+echo -e "Today's Fortune,"; fortune
+cal
+echo ""
+
+
+echo $DIR
+source ~/bash/.shells/defaults
+source ~/bash/.shells/functions
+# source ~/bash/.shells/exports
+source ~/bash/.shells/alias
+# source ~/bash/.shells/prompt
